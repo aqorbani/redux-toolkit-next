@@ -1,5 +1,6 @@
 import Counter from "@/components/Counter";
 import styles from "./page.module.css";
+import Users from "@/components/Users";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
       <h1>NEXT - REDUX TOOLKIT</h1>
       <hr />
       <Counter />
+      <hr />
+      <Users />
     </main>
   );
 }
